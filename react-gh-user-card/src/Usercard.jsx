@@ -4,9 +4,9 @@ const Usercard = (props) => {
   console.log(props.login);
 
   return (
-    <div className="userCards">
+    <div>
       <div key={props.id}>
-        <div className>
+        <div>
           <img src={props.avatar_url} alt={props.id}></img>
           <p>{props.login}</p>
           <p>{props.location}</p>
